@@ -12,7 +12,10 @@
     "MAD9124",
     "W21"
   ],
-  "author": "",
+  "author": {
+    "name": "Armand Murayire Murenzi",
+    "email": "mura0083@algonquinlive.com"
+  },
   "contributors": [
     "Robert McKenney <mckennr@algonquincollege.com>"
   ],
