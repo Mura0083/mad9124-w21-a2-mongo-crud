@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "description": "",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=a2-mongo-crud* nodemon server.js"
   },
   "keywords": [
     "MAD9124",
@@ -15,5 +17,16 @@
     "Robert McKenney <mckennr@algonquincollege.com>"
   ],
   "license": "ISC",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "debug": "^4.3.3",
+    "express": "^4.17.3",
+    "express-mongo-sanitize": "^2.2.0",
+    "mongoose": "^6.2.5",
+    "morgan": "^1.10.0",
+    "xss": "^1.0.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
